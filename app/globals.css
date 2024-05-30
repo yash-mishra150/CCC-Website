@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-neutral-300 text-[#080826];
+}
+
+.katarina{
+    font-family: var(--font-katarina);
+  }
+  
+  .roboto{
+    font-family: var(--font-roboto);
+    font-weight: 400;
+  }
+  
+  .poppins{
+    font-family: var(--font-poppins);
+  }
+  
